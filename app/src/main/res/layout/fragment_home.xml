@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/putih"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+
+    >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="1sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:textSize="1sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/applogo3"
+        />
+
+    <ImageView
+        android:id="@+id/model_1"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/model_1"
+        android:layout_below="@id/logo_home"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/model_2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/model_2"
+        android:layout_below="@id/model_1"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/model_3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/model_3"
+        android:layout_below="@id/model_2"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="50dp"
+         />
+
+    <ImageView
+            android:id="@+id/model_4"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/model_4"
+            android:layout_below="@id/model_3"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="50dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
+    
+</LinearLayout>

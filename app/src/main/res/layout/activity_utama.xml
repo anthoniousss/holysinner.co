@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UtamaActivity"
+    android:background="@drawable/putih"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <ImageView
+                android:id="@+id/app_logo2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/applogo3"
+                />
+
+
+            <Button
+                android:id="@+id/main_join_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:padding="20dp"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/main_lgn_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Login For Shopping"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:layout_below="@id/main_join_btn"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

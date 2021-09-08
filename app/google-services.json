@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1050403275238",
+    "firebase_url": "https://holysinnersco.firebaseio.com",
+    "project_id": "holysinnersco",
+    "storage_bucket": "holysinnersco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050403275238:android:bd552c1f7319b454b69627",
+        "android_client_info": {
+          "package_name": "com.example.holysinnersco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050403275238-j76a0i0tv0dtiua5o54n53nm8c66gmm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.holysinnersco",
+            "certificate_hash": "f8b22cabb4fbb4e496db5278e24bb6bdf81ee0b6"
+          }
+        },
+        {
+          "client_id": "1050403275238-4rn0u681hs7uocpuu7dbtbkg1hruh5l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClIyl-WKfsOUU7NmLceRtDy4hA3WfeFBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050403275238-4rn0u681hs7uocpuu7dbtbkg1hruh5l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

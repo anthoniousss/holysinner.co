@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/putih"
+    tools:context=".DaftarActivity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+   <ImageView
+       android:id="@+id/logo_daftar"
+       android:layout_width="wrap_content"
+       android:layout_height="150dp"
+       android:src="@drawable/applogo3"
+       android:layout_marginTop="80sp"
+       />
+
+    <EditText
+        android:id="@+id/number_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_daftar"
+        android:padding="20dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/input_design"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        />
+
+    <EditText
+        android:id="@+id/nama_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_daftar"
+        android:padding="20dp"
+        android:hint="Username"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        />
+
+    <EditText
+        android:id="@+id/password_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_daftar"
+        android:padding="20dp"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        />
+
+    <Button
+        android:id="@+id/daftar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_daftar"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Create Account"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

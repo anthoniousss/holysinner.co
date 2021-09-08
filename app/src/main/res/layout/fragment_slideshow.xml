@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/putih"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_slideshow"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:textSize="1sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/pants_logo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/applogo3" />
+
+            <ImageView
+                android:id="@+id/jeans_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/pants_logo"
+                android:src="@drawable/jeans1" />
+
+            <TextView
+                android:id="@+id/kode_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jeans_1"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Pants 1"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/harga_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kode_1"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="120.000"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                />
+
+
+            <Button
+                android:id="@+id/harga_1_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_1"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/jeans_2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/harga_1_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/jeans2" />
+
+            <TextView
+                android:id="@+id/kode_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jeans_2"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Pants 2"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/harga_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jeans_2"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="120.000"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"/>
+
+
+            <Button
+                android:id="@+id/harga_2_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/jeans_3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/harga_2_btn"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/jeans3" />
+
+            <TextView
+                android:id="@+id/kode_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Pants 3"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:id="@+id/harga_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kode_3"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="120.000"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                />
+
+
+            <Button
+                android:id="@+id/harga_3_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_3"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/jeans_4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/harga_3_btn"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/jeans4" />
+
+            <TextView
+                android:id="@+id/kode_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pants 4"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/harga_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kode_4"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="120.000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                />
+
+
+            <Button
+                android:id="@+id/harga_4_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_4"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_design"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+
+            <ImageView
+                android:id="@+id/jeans_5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/harga_4_btn"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/jeans5" />
+
+            <TextView
+                android:id="@+id/kode_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pants 5"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/harga_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kode_5"
+                android:layout_marginTop="10dp"
+                android:text="120.000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="#000"/>
+
+
+            <Button
+                android:id="@+id/harga_5_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_5"
+                android:layout_marginTop="20dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+
+            <ImageView
+                android:id="@+id/jeans_6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/harga_5_btn"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/jeans6"
+                />
+
+            <TextView
+                android:id="@+id/kode_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pants 6"
+                android:textSize="25sp"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/harga_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kode_6"
+                android:layout_marginTop="10dp"
+                android:text="120.000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="#000"/>
+
+
+            <Button
+                android:id="@+id/harga_6_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/harga_6"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Buy It"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

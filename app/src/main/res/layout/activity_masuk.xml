@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/putih"
+    tools:context=".MasukActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/logo_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/applogo3"
+        />
+
+    <EditText
+        android:id="@+id/number_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_masuk"
+        android:background="@drawable/input_design"
+        android:hint="Phone Number"
+        android:padding="20dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        />
+
+    <EditText
+        android:id="@+id/password_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_masuk"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        />
+
+    <Button
+        android:id="@+id/masuk_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_masuk"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Login"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
